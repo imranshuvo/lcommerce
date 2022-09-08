@@ -1,13 +1,10 @@
-<div class="header">
-    <!-- He who is contented is rich. - Laozi -->
-    <nav class="blue darken-2">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">{{ env('APP_NAME')}}</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="/login">Login</a></li>
-                </ul>
-            </div>
+<header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div class="nav-wrapper flex justify-between">
+            <a href="#" class="brand-logo">{{ env('APP_NAME')}}</a>
+            <ul id="nav-mobile" class="list-none">
+                <li><a href="/login">Login</a></li>
+            </ul>
         </div>
-  </nav>
-</div>
+    </div>
+</header>
