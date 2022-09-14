@@ -1,3 +1,4 @@
+<x-header></x-header>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -54,3 +55,4 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
+<x-footer></x-footer>
